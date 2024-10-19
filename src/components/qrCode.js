@@ -5,7 +5,7 @@ const { Title, Paragraph } = Typography;
 
 const QRCode = () => (
    <div className="my-16 bg-[#f5f5f5] p-8">
-      <Title level={2} className="text-center mb-4 text-[#4b4949] font-playfair">ĐỊA CHỈ:</Title>
+      <Title level={2} className="text-center mb-4 text-[#4b4949] font-playfair">ĐỊA CHỈ CỤ THỂ TRÊN BẢN ĐỒ:</Title>
       <Paragraph className="text-center mb-8 text-[#4b4949]">
          Thật vui vì được gặp và đón tiếp các bạn trong<br />
          một dịp đặc biệt như đám cưới của chúng tôi!♥

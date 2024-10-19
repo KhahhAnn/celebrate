@@ -21,8 +21,8 @@ function App() {
       <AboutUs />
       <Story />
       <WeddingPhotos />
-      <QRCode />
       <RSVP />
+      <QRCode />
       <FooterComponent />
     </div>
   );

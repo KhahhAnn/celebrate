@@ -53,7 +53,7 @@
    }
 
    .gallery-img-1 {
-      max-width: 75%;
+      max-width: 75% !important;
    }
 
    .text-about-desc-mb {
@@ -115,5 +115,19 @@
    }
    .ant-col-xs-24  {
       max-width: 50%;
+   }
+   .invitation--flower-mb {
+      display: none;
+   }
+   .and-text-mb {
+      font-size: 20px !important;
+      margin-bottom: 0;
+   }
+   .day-text-mb {
+      font-size: 30px !important;
+      margin: 0 10px !important;
+   }
+   .h-mb {
+      height: 18rem;
    }
 }
