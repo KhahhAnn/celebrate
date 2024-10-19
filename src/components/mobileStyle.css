@@ -1,0 +1,121 @@
+@media screen and (max-width: 800px) {
+   h1 {
+      font-size: 24px !important;
+   }
+
+   .flower {
+      width: 25%;
+   }
+
+   .gallery-text {
+      display: none !important;
+   }
+
+   .gallery-img-2,
+   .gallery-img-3 {
+      display: none !important;
+   }
+
+   .text-lg-mobile {
+      font-size: 15px;
+   }
+
+   .invitation-text-h1 {
+      font-size: 20px !important;
+   }
+
+   .invitation-container-mb {
+      padding: 24px 5px !important;
+   }
+
+   .parents-container-mb {
+      justify-content: space-between !important;
+   }
+
+   .ant-card-body {
+      padding: 24px 5px !important;
+   }
+
+   .ring-mb {
+      max-width: 70px;
+      left: 41%;
+   }
+
+   :where(.css-dev-only-do-not-override-vryruh).ant-image-preview-root .ant-image-preview-img {
+      max-width: 50%;
+      max-height: 70%;
+      vertical-align: middle;
+      transform: scale3d(1, 1, 1);
+      cursor: grab;
+      transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+      user-select: none;
+      transform: translate3d(-37%, -16%, 0px) scale3d(1, 1, 1) rotate(0deg) !important;
+   }
+
+   :where(.css-dev-only-do-not-override-vryruh).ant-col-xs-24 {
+      display: block;
+      flex: 0 0 100%;
+      max-width: 50%;
+   }
+   .gallery-img-1 {
+      max-width: 75%;
+   }
+
+   .text-about-desc-mb {
+      font-size: 15px;
+      max-height: 220px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+      text-align: left;
+   }
+
+   .about-container-mb {
+      padding: 5px !important;
+   }
+
+   .w-56-mb {
+      width: 11rem;
+   }
+
+   .about-title-mb {
+      font-size: 17px !important;
+   }
+
+   * {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+   }
+
+   .top-mobile {
+      margin-top: 90px !important;
+   }
+
+   .map-mb {
+      width: 200%;
+   }
+
+   .map-container {
+      justify-content: left !important;
+   }
+
+   h2:where(.css-dev-only-do-not-override-vryruh).ant-typography,
+   div:where(.css-dev-only-do-not-override-vryruh).ant-typography-h2,
+   div:where(.css-dev-only-do-not-override-vryruh).ant-typography-h2>textarea,
+   :where(.css-dev-only-do-not-override-vryruh).ant-typography h2 {
+      margin-bottom: 0.5em;
+      color: rgba(0, 0, 0, 0.88);
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.2666666666666666;
+   }
+   .my-16 {
+      margin: 0;
+   }
+   h2 {
+      font-size: 24px !important;
+   }
+   .form-container-mb {
+      padding-bottom: 100px;
+   }
+}

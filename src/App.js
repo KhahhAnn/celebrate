@@ -10,6 +10,7 @@ import RSVP from './components/rsvp';
 import AboutUs from './components/aboutUs';
 import FooterComponent from './components/footer';
 import QRCode from './components/qrCode';
+import "./components/mobileStyle.css"
 
 function App() {
   return (

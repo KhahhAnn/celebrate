@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Form, Input, Button, Select } from 'antd';
+import { RSVP_TEXT } from '../utils/stringUtils'; // Import text từ utils
 
 const { Title, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -9,41 +10,68 @@ const WeddingRSVP = () => {
 
    const onFinish = (values) => {
       console.log('Form values:', values);
-      // Xử lý gửi form ở đây
+      // Chuyển đổi giá trị attend từ "yes" / "no" thành true / false
+      const updatedValues = {
+         ...values,
+         attend: values.attend === 'yes', // Chuyển đổi giá trị
+      };
+      console.log('Updated Form values:', updatedValues);
    };
 
    return (
-      <div className="my-16 px-4 max-w-3xl mx-auto">
+      <div className="my-16 px-4 max-w-3xl mx-auto form-container-mb">
          <div className="flex items-center justify-center mb-4">
             <div className="border-t border-gray-300 flex-grow"></div>
-            <Title level={2} className="mx-4 my-0 !text-[#4b4949] font-playfair">BẠN SẼ THAM DỰ CHỨ?</Title>
+            <Title level={2} className="mx-4 my-0 !text-[#4b4949] font-playfair">
+               {RSVP_TEXT.title}
+            </Title>
             <div className="border-t border-gray-300 flex-grow"></div>
          </div>
          <Paragraph className="text-center mb-8 text-[#4b4949]">
-            Đám cưới của chúng tôi sẽ trọn vẹn hơn khi có thêm<br />
-            lời chúc phúc và sự hiện diện của các bạn. Xin hãy<br />
-            xác nhận sự có mặt của mình để chúng tôi chuẩn bị<br />
-            đón tiếp một cách chu đáo nhất nhé! Trân trọng!
+            {RSVP_TEXT.paragraph}
          </Paragraph>
          <Form form={form} onFinish={onFinish} layout="vertical">
-            <Form.Item name="name" label="Họ tên" rules={[{ required: true, message: 'Vui lòng nhập họ tên' }]}>
-               <Input placeholder="Họ tên" />
+            <Form.Item
+               name="name"
+               label={RSVP_TEXT.nameLabel}
+               rules={[{ required: true, message: 'Vui lòng nhập họ tên' }]}
+            >
+               <Input placeholder={RSVP_TEXT.nameLabel} />
             </Form.Item>
-            <Form.Item name="phone" label="Số điện thoại" rules={[{ required: true, message: 'Vui lòng nhập số điện thoại' }]}>
-               <Input placeholder="Số điện thoại" />
+            <Form.Item
+               name="phoneNumber"
+               label={RSVP_TEXT.phoneLabel}
+               rules={[
+                  { required: true, message: 'Vui lòng nhập số điện thoại' },
+                  { pattern: /^[0-9]{10,12}$/, message: 'Số điện thoại không hợp lệ (10-12 số)' } 
+               ]}
+            >
+               <Input placeholder={RSVP_TEXT.phoneLabel} />
             </Form.Item>
-            <Form.Item name="wishes" label="Gửi những lời chúc tốt đẹp nhất">
-               <TextArea rows={4} placeholder="Lời chúc" />
+            <Form.Item name="wish" label={RSVP_TEXT.wishesLabel}>
+               <TextArea rows={4} placeholder={RSVP_TEXT.wishesLabel} />
             </Form.Item>
-            <Form.Item name="attendance" label="Bạn sẽ tham gia chứ ?" rules={[{ required: true, message: 'Vui lòng chọn' }]}>
+            <Form.Item
+               name="attend"
+               label={RSVP_TEXT.attendanceLabel}
+               rules={[{ required: true, message: 'Vui lòng chọn' }]}
+            >
                <Select placeholder="Chọn">
-                  <Select.Option value="yes">Có, tôi sẽ tham dự</Select.Option>
-                  <Select.Option value="no">Rất tiếc, tôi không thể tham dự</Select.Option>
+                  <Select.Option value="yes">{RSVP_TEXT.attendanceOptions.yes}</Select.Option>
+                  <Select.Option value="no">{RSVP_TEXT.attendanceOptions.no}</Select.Option>
                </Select>
+            </Form.Item>
+            <Form.Item
+               style={{ display: "none" }}
+               name="cdcr"
+               label="CDCR"
+               rules={[{ required: true, message: 'Vui lòng nhập CDCR' }]}
+            >
+               <Input defaultValue="CD" placeholder="CDCR" disabled /> 
             </Form.Item>
             <Form.Item>
                <Button type="primary" htmlType="submit" className="bg-[#4b4949] hover:bg-[#333] w-full">
-                  Phản Hồi
+                  {RSVP_TEXT.submitButton}
                </Button>
             </Form.Item>
          </Form>
