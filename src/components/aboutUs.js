@@ -53,7 +53,7 @@ const AboutUs = () => (
                </div>
                <div className="absolute -right-72 top-28 w-72 h-72 z-10 flower gallery-img-2">
                   <img
-                     src="https://khan-web-prod.s3.ap-southeast-1.amazonaws.com/uploads/309a99d7-fe06-404b-a69a-dc6f5d62f95f.png"
+                     src="https://khan-web-dev.s3.ap-southeast-1.amazonaws.com/uploads/309a99d7-fe06-404b-a69a-dc6f5d62f95f.png"
                      alt="flower"
                      style={{ width: '100%', height: 'auto' }}
                   />
