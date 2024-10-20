@@ -11,8 +11,8 @@ const Invitation = () => (
          style={{ opacity: 0.7, transform: 'rotate(120deg)' }}
          />
       <div className="text-center">
-         <h1 className="text-9xl md:text-[70px] font-bold mt-4 text-[#4b4949] invitation-text-h1">
-            {INVITATION_TEXT.brideName} <span className='font-leJourScript italic mr-2 text-[50px] and-text-mb' style={{fontWeight: "100", margin: "0 20px"}}>and</span> {INVITATION_TEXT.groomName} 
+         <h1 className="text-9xl md:text-[70px] font-bold mt-4 text-[#4b4949] invitation-text-h1 invitation-text-h1-mb">
+            {INVITATION_TEXT.brideName} <span className='font-leJourScript italic mr-2 text-[50px] and-and-mb' style={{fontWeight: "100", margin: "0 20px"}}>and</span> {INVITATION_TEXT.groomName} 
          </h1>
          <p className="text-lg text-lg-mobile md:text-[30px] font-timeNewRoman mt-8">{INVITATION_TEXT.ceremonyText}</p>
          <div className="flex justify-center items-center mt-4 flex-wrap">
@@ -28,30 +28,30 @@ const Invitation = () => (
                <p className="text-lg text-lg-mobile font-bold font-timeNewRoman !text-[40px] and-text-mb">{INVITATION_TEXT.year}</p>
             </div>
          </div>
-         <p className='font-mb-5 text-[25px] font-timeNewRomanItalic and-text-mb'>{INVITATION_TEXT.text}</p>
-         <p className='mt-4 font-timeNewRoman text-[20px]'>{INVITATION_TEXT.venueName}</p>
-         <p className="font-timeNewRoman text-[20px]">{INVITATION_TEXT.venueFloor}</p>
-         <p className='font-timeNewRoman text-[20px]'>{INVITATION_TEXT.venueAddress}</p>
+         <p className='font-mb-5 text-[25px] font-timeNewRomanItalic and-text-mb  text-invitation-desc-mb'>{INVITATION_TEXT.text}</p>
+         <p className='mt-4 font-timeNewRoman text-[20px]  text-invitation-desc-mb'>{INVITATION_TEXT.venueName}</p>
+         <p className="font-timeNewRoman text-[20px]  text-invitation-desc-mb">{INVITATION_TEXT.venueFloor}</p>
+         <p className='font-timeNewRoman text-[20px]  text-invitation-desc-mb'>{INVITATION_TEXT.venueAddress}</p>
          <img
             src="https://khan-web-dev.s3.ap-southeast-1.amazonaws.com/uploads/31e52723-6768-4928-9f26-3331975b5bf9.png"
             alt="Rings"
-            className="max-w-[120px] h-auto left-[42%] mt-4 absolute ring-mb font-timeNewRoman"
+            className="max-w-[120px] h-auto left-[44%] mt-4 absolute ring-mb font-timeNewRoman"
          />
          <div className="flex justify-around text-sm mt-12 parents-container-mb font-timeNewRoman">
-            <div className='font-timeNewRoman'>
-               <p className='text-[20px]'>NHÀ TRAI</p>
-               <p className='font-bold text-[20px]  mt-4'>{INVITATION_TEXT.groomParents.father}</p>
-               <p className='font-bold text-[20px]  mt-4'>{INVITATION_TEXT.groomParents.mother}</p>
+            <div className='font-timeNewRoman mr-24 text-invitation-desc-mb'>
+               <p className='text-[20px] text-invitation-desc-mb'>NHÀ TRAI</p>
+               <p className='font-bold text-[20px]  mt-4 text-invitation-desc-mb'>{INVITATION_TEXT.groomParents.father}</p>
+               <p className='font-bold text-[20px]  mt-4 text-invitation-desc-mb'>{INVITATION_TEXT.groomParents.mother}</p>
             </div>
             <div>
-               <p className='text-[20px]'>NHÀ GÁI</p>
-               <p className='font-bold text-[20px]  mt-4'>{INVITATION_TEXT.brideParents.father}</p>
-               <p className='font-bold text-[20px]  mt-4'>{INVITATION_TEXT.brideParents.mother}</p>
+               <p className='text-[20px] text-invitation-desc-mb'>NHÀ GÁI</p>
+               <p className='font-bold text-[20px]  mt-4 text-invitation-desc-mb'>{INVITATION_TEXT.brideParents.father}</p>
+               <p className='font-bold text-[20px]  mt-4 text-invitation-desc-mb'>{INVITATION_TEXT.brideParents.mother}</p>
             </div>
          </div>
          <div className="flex justify-center items-center mt-12">
-            <p className='text-[20px] font-timeNewRoman'>{INVITATION_TEXT.dressCode}</p>
-            <div className="flex ml-2">
+            <p className='text-[20px] font-timeNewRoman text-invitation-dress-mb'>{INVITATION_TEXT.dressCode}</p>
+            <div className="flex ml-2 gap-2">
                <div className="w-10 h-10 bg-[#909090] rounded-full mx-1"></div>
                <div className="w-10 h-10 bg-[#B1CAE9] rounded-full mx-1"></div>
                <div className="w-10 h-10 bg-[#F2ABB3] rounded-full mx-1"></div>

@@ -14,14 +14,14 @@ const AboutUs = () => (
       {/* Phần về chú rể */}
       <Row justify="center" align="middle" gutter={[16, 16]} style={{marginRight: "-256px"}}>
          <Col xs={24} sm={24} md={12} lg={10} xl={10}>
-            <div style={{ paddingLeft: '455px', minHeight: '200px', position: "relative", zIndex: 20  }} className='about-container-mb'>
+            <div style={{ textAlign: '-webkit-right', minHeight: '200px', position: "relative", zIndex: 20  }} className='about-brideDescription-mb'>
                <div style={{ direction: 'rtl', textAlign: 'right', maxWidth: "256px", paddingBottom: "88px", paddingTop: "20px" }}>
-                  <p className='text-2xl text-about-desc-mb font-timeNewRoman' style={{ wordWrap: 'break-word' }}>
+                  <p className='text-2xl text-about-brideDescription-mb font-timeNewRoman' style={{ wordWrap: 'break-word' }}>
                      {ABOUT_US_TEXT.groomDescription}
                   </p>
                </div>
             </div>
-            <div className='absolute w-[18rem] h-[24rem] bg-white z-0 right-0 font-playfair w-56-mb top-0 h-mb' >
+            <div className='absolute w-[18rem] h-[24rem] bg-white z-0 right-0 font-playfair w-56-mb top-0 h-2-mb' >
                <p style={{ bottom: 10, right: 10, fontWeight: 'bold', position: "absolute", fontSize: "24px" }} className='about-title-mb'>
                   {ABOUT_US_TEXT.groomTitle}
                </p>

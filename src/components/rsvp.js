@@ -1,6 +1,7 @@
 import React from 'react';
-import { Typography, Form, Input, Button, Select } from 'antd';
-import { RSVP_TEXT } from '../utils/stringUtils'; // Import text từ utils
+import { Typography, Form, Input, Button, Select, message } from 'antd';
+import axios from 'axios';
+import { RSVP_TEXT } from '../utils/stringUtils'; 
 
 const { Title, Paragraph } = Typography;
 const { TextArea } = Input;
@@ -8,14 +9,23 @@ const { TextArea } = Input;
 const WeddingRSVP = () => {
    const [form] = Form.useForm();
 
-   const onFinish = (values) => {
+   const onFinish = async (values) => {
       console.log('Form values:', values);
-      // Chuyển đổi giá trị attend từ "yes" / "no" thành true / false
       const updatedValues = {
          ...values,
-         attend: values.attend === 'yes', // Chuyển đổi giá trị
+         attend: values.attend === 'yes', 
       };
-      console.log('Updated Form values:', updatedValues);
+
+      console.log(updatedValues);
+   
+      try {
+         const response = await axios.post('https://celebrate-be.vercel.app/wishs/', updatedValues); 
+         console.log('Response:', response.data);
+         message.success('Gửi thành công!'); 
+      } catch (error) {
+         console.error('Error sending form:', error);
+         message.error('Đã xảy ra lỗi. Vui lòng thử lại sau.'); 
+      }
    };
 
    return (
@@ -30,7 +40,12 @@ const WeddingRSVP = () => {
          <Paragraph className="text-center mb-8 text-[#4b4949]">
             {RSVP_TEXT.paragraph}
          </Paragraph>
-         <Form form={form} onFinish={onFinish} layout="vertical">
+         <Form
+            form={form}
+            onFinish={onFinish}
+            layout="vertical"
+            initialValues={{ cdcr: 'CD' }} // Đặt initialValues cho form
+         >
             <Form.Item
                name="name"
                label={RSVP_TEXT.nameLabel}
@@ -43,7 +58,7 @@ const WeddingRSVP = () => {
                label={RSVP_TEXT.phoneLabel}
                rules={[
                   { required: true, message: 'Vui lòng nhập số điện thoại' },
-                  { pattern: /^[0-9]{10,12}$/, message: 'Số điện thoại không hợp lệ (10-12 số)' } 
+                  { pattern: /^[0-9]{10,12}$/, message: 'Số điện thoại không hợp lệ (10-12 số)' }
                ]}
             >
                <Input placeholder={RSVP_TEXT.phoneLabel} />
@@ -62,12 +77,12 @@ const WeddingRSVP = () => {
                </Select>
             </Form.Item>
             <Form.Item
-               style={{ display: "none" }}
                name="cdcr"
                label="CDCR"
                rules={[{ required: true, message: 'Vui lòng nhập CDCR' }]}
+               style={{ display: "none" }} 
             >
-               <Input defaultValue="CD" placeholder="CDCR" disabled /> 
+               <Input placeholder="CDCR" disabled />
             </Form.Item>
             <Form.Item>
                <Button type="primary" htmlType="submit" className="bg-[#4b4949] hover:bg-[#333] w-full">

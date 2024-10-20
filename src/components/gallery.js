@@ -6,8 +6,8 @@ import dsc09281 from "../assets/DSC09281.jpg"
 import dsc09733 from "../assets/DSC09733.jpg"
 
 const Gallery = () => (
-   <div className="bg-white py-10 relative">
-      <div className="absolute -left-10 top-0 w-72 h-72 flower">
+   <div className="bg-white py-10 relative gallery-container-mb">
+      <div className="absolute -left-10 top-0 w-72 h-72 flower flower-mobile ">
          <img
             src="https://khan-web-dev.s3.ap-southeast-1.amazonaws.com/uploads/309a99d7-fe06-404b-a69a-dc6f5d62f95f.png"
             alt="flower"
@@ -15,7 +15,7 @@ const Gallery = () => (
          />
       </div>
       <Row justify="center" gutter={[26, 26]} className='mt-20' style={{marginRight: "-235px"}}>
-         <Col xs={24} sm={12} md={8} lg={5} className="flex justify-center gallery-img-1">
+         <Col xs={24} sm={12} md={8} lg={5} className="flex justify-center gallery-img-1 gallery-img-1-mb">
             <Image
                src={Dsc08779}
                alt="gallery1"

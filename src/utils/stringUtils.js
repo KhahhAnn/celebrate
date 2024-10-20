@@ -20,8 +20,8 @@ export const INVITATION_TEXT = {
    venueAddress: "Thôn Xuân Chiếng, Ngũ Phúc, Kiến Thụy, Hải Phòng",
    text: "(Tức ngày 10 tháng 10 năm Giáp Thìn)",
    groomParents: {
-      father: "ÔNG BÙI ĐỨC THÀNH",
-      mother: "BÀ BÙI THỊ THỦY",
+      father: "ÔNG ĐẶNG VĂN KIỆM",
+      mother: "TRẦN THỊ THU HƯƠNG",
    },
    brideParents: {
       father: "ÔNG BÙI ĐỨC THÀNH",

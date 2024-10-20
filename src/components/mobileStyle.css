@@ -4,7 +4,7 @@
    }
 
    .flower {
-      width: 25%;
+      width: 40%;
    }
 
    .gallery-text {
@@ -33,12 +33,13 @@
    }
 
    .ant-card-body {
-      padding: 24px 5px !important;
+      padding: 0px 5px 24px 5px !important;
    }
 
    .ring-mb {
+      top: 60%;
       max-width: 70px;
-      left: 41%;
+      left: 44%;
    }
 
    .ant-image-preview-img {
@@ -52,17 +53,46 @@
       transform: translate3d(0%, -20%, 0px) scale3d(1, 1, 1) rotate(0deg) !important;
    }
 
+   .and-and-mb {
+      font-size: 50px;
+      margin: 0 20px 0 20px !important;
+      text-align: center;
+   }
+
+   .invitation-text-h1-mb {
+      padding-left: 40px;
+   }
+
    .gallery-img-1 {
       max-width: 75% !important;
    }
 
+   .gallery-container-mb {
+      padding-bottom: 0;
+   }
+
+   .gallery-img-1-mb {
+      margin: 0 !important;
+      padding: 0 !important;
+   }
+
    .text-about-desc-mb {
-      font-size: 15px;
+      line-height: 16px;
+      font-size: 13px;
       max-height: 220px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: normal;
       text-align: left;
+   }
+
+   .text-invitation-desc-mb {
+      line-height: 16px;
+      font-size: 13px;
+      max-height: 220px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
    }
 
    .about-container-mb {
@@ -104,30 +134,65 @@
       font-size: 20px;
       line-height: 1.2666666666666666;
    }
+
    .my-16 {
       margin: 0;
    }
+
    h2 {
       font-size: 24px !important;
    }
+
    .form-container-mb {
       padding-bottom: 100px;
    }
-   .ant-col-xs-24  {
+
+   .ant-col-xs-24 {
       max-width: 50%;
    }
+
    .invitation--flower-mb {
       display: none;
    }
+
    .and-text-mb {
-      font-size: 20px !important;
+      font-size: 13px !important;
       margin-bottom: 0;
    }
+
    .day-text-mb {
-      font-size: 30px !important;
+      font-size: 40px !important;
       margin: 0 10px !important;
    }
+
    .h-mb {
       height: 18rem;
+   }
+
+   .h-2-mb {
+      height: 12rem;
+   }
+
+   .text-invitation-dress-mb {
+      font-size: 13px;
+      margin-right: 20px !important;
+   }
+
+   .text-about-brideDescription-mb {
+      line-height: 16px;
+      font-size: 13px;
+      max-height: 220px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+      text-align: left;
+      margin-left: 20px !important;
+   }
+
+   .about-brideDescription-mb {
+      direction: rtl;
+      text-align: right;
+      max-width: 256px;
+      padding-top: 0px;
    }
 }
