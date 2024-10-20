@@ -19,7 +19,7 @@ const WeddingRSVP = () => {
       console.log(updatedValues);
    
       try {
-         const response = await axios.post('https://celebrate-be.vercel.app/wishs/', updatedValues); 
+         const response = await axios.post('https://www.celebrate-be.vercel.app/wishs/', updatedValues); 
          console.log('Response:', response.data);
          message.success('Gửi thành công!'); 
       } catch (error) {
