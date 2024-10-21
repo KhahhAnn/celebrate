@@ -75,7 +75,7 @@ export const STORY_TEXT = {
 
 export const ABOUT_US_TEXT = {
    title: "VỀ CHÚNG TÔI",
-   groomDescription: `Từ lúc quen Trinh mình tăng 15 kí, cổ hay mắng suốt ngày nên mình dần quen rồi. Lần đầu tiên đi hẹn hò đội chiếc mũ bảo hiểm xịn đét đảm bảo nàng sẽ ưng, nay sắp làm chồng người ta rồi vẫn không tìm thấy mũ.`,
+   groomDescription: `Từ lúc quen Trinh mình tăng 15 kí, cổ hay mắng suốt ngày nên mình dần quen rồi. Lần đầu tiên đi hẹn hò đội chiếc mũ bảo hiểm xịn đét đảm bảo nàng sẽ ưng, nay sắp làm chồng người ta rồi vẫn không tìm thấy mũ`,
    brideDescription: `Tự nhiên một chiều thu tháng 8 mình chào ổng trước. Lần đầu đưa mình đi chơi, ra đến cổng trường ổng bảo “Anh mặc áo xanh nhưng không phải mấy anh grab đâu nhá”, 10s sau thấy một người con trai mặc áo sơ mi xanh đội cái mũ bảo hiểm nồi cơm điện, mình ngại quá định quay xe. Nay sắp làm vợ người ta rồi mỗi lần đi ra ngoài mình đều phải duyệt trước outfit cho ổng`,
    groomTitle: "Về chú rể",
    brideTitle: "Về cô dâu",

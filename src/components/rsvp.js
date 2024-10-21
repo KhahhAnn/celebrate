@@ -44,7 +44,7 @@ const WeddingRSVP = () => {
             form={form}
             onFinish={onFinish}
             layout="vertical"
-            initialValues={{ cdcr: 'CR' }} // Đặt initialValues cho form
+            initialValues={{ cdcr: 'CR'  }} // Đặt initialValues cho form
          >
             <Form.Item
                name="name"
