@@ -10,14 +10,14 @@ export const INVITATION_TEXT = {
    brideName: "HUYỀN TRINH",
    groomName: "TRẦN KIÊN",
    ceremonyText: "ĐƯỢC TỔ CHỨC VÀO",
-   timeHour: "17 GIỜ 00",
+   timeHour: "16 GIỜ 00",
    dayOfWeek: "CHỦ NHẬT",
    day: "10",
    month: "THÁNG 11",
    year: "NĂM 2024",
    venueFloor: "Tại TƯ GIA NHÀ GÁI",
    venueName: "TRÂN TRỌNG KÍNH MỜI BẠN TỚI DỰ BỮA CƠM THÂN MẬT",
-   venueAddress: "Thôn Xuân Chiếng, Ngũ Phúc, Kiến Thụy, Hải Phòng",
+   venueAddress: "465 phố Vị Thuỷ, Thanh Mỹ, TX Sơn Tây, Hà Nội",
    text: "(Tức ngày 10 tháng 10 năm Giáp Thìn)",
    groomParents: {
       father: "ÔNG ĐẶNG VĂN KIỆM",
@@ -62,7 +62,7 @@ export const STORY_TEXT = {
    date2: "[04/10/2020]",
    date3: "[07/05/2023]",
    date4: "[10/11/2024]",
-   description: `Bắt đầu từ 1 chiếc vẫy tay trước, Kiên và Trinh gặp nhau, để trò chuyện và tìm hiểu nhau. 
+   description: `Bắt đầu từ 1 chiếc vẫy tay trước, Kiên và Trinh gặp nhau để trò chuyện và tìm hiểu nhau. 
 - "Anh vốn định chào Trinh trước, mà Trinh lại chào anh trước." 
 - "Nhưng anh giậm giờ lắm!"`,
    description2: `Kiên hay trêu Trinh là "Cái lúc anh đi học Giải tích em vẫn đeo khăn quảng đỏ ý nhở". Trinh nói "Anh hơn em có 4 tuổi thôi đấy, với cả năm sau anh vẫn học lại Giải tích cơ mà!". Dù có chút khoảng cách thế hệ, họ vẫn thấy nhiều điểm chung, sau khi Kiên có bằng lái xe thì ngỏ lời yêu, trộm vía lúc ấy vừa hay Trinh cũng bằng lòng.`,
