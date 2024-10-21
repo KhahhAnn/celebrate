@@ -14,8 +14,7 @@ const QRCode = () => (
          <Col xs={24} sm={20} md={18} lg={16} className='map-mb'>
             <div className="overflow-hidden rounded-lg shadow-md map-mb">
                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d228.0477484454947!2d106.62511690233231!3d20.73623168696942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a750010af1a43%3A0x312d12fc1a3335cf!2zQ-G7lW5nIGNow6BvIHRow7RuIFh1w6JuIENoaeG6v25n!5e1!3m2!1svi!2s!4v1729324948271!5m2!1svi!2s"
-                  width="100%"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.597205786614!2d105.4698355750743!3d21.11316848487447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31345f00035c51c1%3A0x6e8598d62f423a91!2zVOG6oXAgaG_DoSBIxrDGoW5nIEtp4buHbQ!5e1!3m2!1svi!2s!4v1729526604579!5m2!1svi!2s"                  width="100%"
                   height="450"
                   style={{ border: 0 }}
                   allowFullScreen=""
