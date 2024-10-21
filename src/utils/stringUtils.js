@@ -62,7 +62,7 @@ export const STORY_TEXT = {
    date2: "[04/10/2020]",
    date3: "[07/05/2023]",
    date4: "[10/11/2024]",
-   description: `Bắt đầu từ 1 chiếc vẫy tay trước, Kiên và Trinh gặp nhau, để trò chuyện và tìm hiểu nhau. 
+   description: `Bắt đầu từ 1 chiếc vẫy tay trước, Kiên và Trinh gặp nhau để trò chuyện và tìm hiểu nhau. 
 - "Anh vốn định chào Trinh trước, mà Trinh lại chào anh trước." 
 - "Nhưng anh giậm giờ lắm!"`,
    description2: `Kiên hay trêu Trinh là "Cái lúc anh đi học Giải tích em vẫn đeo khăn quảng đỏ ý nhở". Trinh nói "Anh hơn em có 4 tuổi thôi đấy, với cả năm sau anh vẫn học lại Giải tích cơ mà!". Dù có chút khoảng cách thế hệ, họ vẫn thấy nhiều điểm chung, sau khi Kiên có bằng lái xe thì ngỏ lời yêu, trộm vía lúc ấy vừa hay Trinh cũng bằng lòng.`,
@@ -75,7 +75,7 @@ export const STORY_TEXT = {
 
 export const ABOUT_US_TEXT = {
    title: "VỀ CHÚNG TÔI",
-   groomDescription: `Từ lúc quen Trinh mình tăng 15 kí, cổ hay mắng suốt ngày nên mình dần quen rồi. Lần đầu tiên đi hẹn hò đội chiếc mũ bảo hiểm xịn đét đảm bảo nàng sẽ ưng, nay sắp làm chồng người ta rồi vẫn không tìm thấy mũ.`,
+   groomDescription: `Từ lúc quen Trinh mình tăng 15 kí, cổ hay mắng suốt ngày nên mình dần quen rồi. Lần đầu tiên đi hẹn hò đội chiếc mũ bảo hiểm xịn đét đảm bảo nàng sẽ ưng, nay sắp làm chồng người ta rồi vẫn không tìm thấy mũ`,
    brideDescription: `Tự nhiên một chiều thu tháng 8 mình chào ổng trước. Lần đầu đưa mình đi chơi, ra đến cổng trường ổng bảo “Anh mặc áo xanh nhưng không phải mấy anh grab đâu nhá”, 10s sau thấy một người con trai mặc áo sơ mi xanh đội cái mũ bảo hiểm nồi cơm điện, mình ngại quá định quay xe. Nay sắp làm vợ người ta rồi mỗi lần đi ra ngoài mình đều phải duyệt trước outfit cho ổng`,
    groomTitle: "Về chú rể",
    brideTitle: "Về cô dâu",
