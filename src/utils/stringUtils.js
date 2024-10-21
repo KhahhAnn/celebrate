@@ -21,7 +21,7 @@ export const INVITATION_TEXT = {
    text: "(Tức ngày 10 tháng 10 năm Giáp Thìn)",
    groomParents: {
       father: "ÔNG ĐẶNG VĂN KIỆM",
-      mother: "TRẦN THỊ THU HƯƠNG",
+      mother: "BÀ TRẦN THỊ THU HƯƠNG",
    },
    brideParents: {
       father: "ÔNG BÙI ĐỨC THÀNH",
