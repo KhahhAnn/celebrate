@@ -10,7 +10,7 @@ export const INVITATION_TEXT = {
    brideName: "HUYỀN TRINH",
    groomName: "TRẦN KIÊN",
    ceremonyText: "ĐƯỢC TỔ CHỨC VÀO",
-   timeHour: "17 GIỜ 00",
+   timeHour: "9 GIỜ 00",
    dayOfWeek: "CHỦ NHẬT",
    day: "10",
    month: "THÁNG 11",
