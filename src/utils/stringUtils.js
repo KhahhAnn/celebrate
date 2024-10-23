@@ -15,7 +15,7 @@ export const INVITATION_TEXT = {
    day: "10",
    month: "THÁNG 11",
    year: "NĂM 2024",
-   venueFloor: "Tại TƯ GIA NHÀ GÁI",
+   venueFloor: "Tại TƯ GIA NHÀ TRAI",
    venueName: "TRÂN TRỌNG KÍNH MỜI BẠN TỚI DỰ BỮA CƠM THÂN MẬT",
    venueAddress: "465 phố Vị Thuỷ, Thanh Mỹ, TX Sơn Tây, Hà Nội",
    text: "(Tức ngày 10 tháng 10 năm Giáp Thìn)",
